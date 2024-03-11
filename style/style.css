@@ -1,66 +1,66 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /*mengatur margin dari setiap elemen di halaman web*/
+    padding: 0;  /*mengatur margin dari setiap elemen di halaman web */
+    box-sizing: border-box; /* mengatur box model dari setiap elemen menjadi border-box*/
 }
 
 body {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+    display: flex; /*mengatur elemen body menggunakan tata letak flexbox*/
+    height: 100vh; /* mengatur tinggi elemen menjadi 100%*/
+    align-items: center; /*elemen di dalam body akan diatur secara vertikal*/
+    justify-content: center; /* elemen di dalam body akan diatur secara horizontal*/
 }
 
 .Hero {
-    position: relative;
-    overflow: hidden;
+    position: relative; /*mengatur posisi dari kelas hero menjadi relatif*/
+    overflow: hidden; /*mengatur overflow dari elemen kelas hero*/
 }
 
 .Hero img {
-    display: block;
+    display: block; /*mengatur gaya gambar menjadi blok*/
 }
 
 .main img{
-    width: 1100px;
+    width: 1100px; /*mengatur lebar dari gambar*/
 }
 
 .container {
-    position: absolute;
-    background-image: linear-gradient(to right,#578456,#374e36, #1f3225);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    box-shadow: 10px 10px 5px rgb(175, 204, 214);
-    margin-top: 30px;
+    position: absolute; /*mengatur posisi elemen menjadi absolut*/
+    background-image: linear-gradient(to right,#578456,#374e36, #1f3225); /*mengatur background dengan  gradient warna hijau ke hijau lebih gelap dari kiri ke kanan*/
+    top: 50%;  /* mengatur posisi atas elemen */
+    left: 50%; /*  mengatur posisi kiri elemen */
+    transform: translate(-50%, -50%); /* menggeser titik tengah (pusat) elemen container ke titik tengah layar, memberikan efek tampilan yang terpusat secara vertikal dan horizontal*/
+    text-align: center;  /*Mengatur teks pada container agar bertebar rata*/
+    box-shadow: 10px 10px 5px rgb(175, 204, 214); /*menambahkan bayangan kotak pada elemen*/
+    margin-top: 30px; /* memberi jarak atas konten*/
 }
 
 .card img{
-    width: 300px;
-    margin-left: 120px;
-    margin-top: 20px;
+    width: 300px; /* mengatur lebar gambar*/
+    margin-left: 120px; /* memberikan margin di sebelah kiri gambar*/
+    margin-top: 20px; /* memberikan margin di atas gambar*/
 }
 
 .text {
-    margin-top: 20px;
-    color: #d9ebd9;
+    margin-top: 20px; /* memberikan jarak/margin atas teks*/
+    color: #d9ebd9; /* memberikan warna pada teks didalam elemen */
 }
 
 
 .text h1{
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 45px;  /*memberikan ukuran huruf untuk elemen <h1>*/
+    margin-bottom: 20px; /* memberikan margin pada bagian bawah text <h1>*/
 }
 
 .text p{
-    font-size: 16.5px;
-    color: aliceblue;
-    margin:20px 20px;
+    font-size: 16.5px; /* memberikan ukuran huruf pada elemen p*/
+    color: aliceblue; /* memberikan warna pada teks didalam elemen p*/
+    margin:20px 20px; /*memberikan margin di atas bawah dan kiri kanan elemen p*/
 }
 
 
 .text h1 span{
-    color:#fffb00;
-    font-family: 'Lucida Handwriting', cursive;
-    font-size: 38px;
+    color:#fffb00; /* memberikan warna teks untuk elemen h1 span atau text yang berada diantara <span></span>*/
+    font-family: 'Lucida Handwriting', cursive; /*mengatur jenis font*/
+    font-size: 38px; /*emberikan ukuran huruf pada elemen h1 span*/
 }
